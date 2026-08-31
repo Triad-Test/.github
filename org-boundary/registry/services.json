@@ -3,6 +3,13 @@
   "organization": "Triad-Test",
   "services": [
     {
+      "service_id": "triad-test.boundary-diagnostic",
+      "repository": "Triad-Test/.github",
+      "boundary_role": "BOUNDARY_LOCAL_DIAGNOSTIC",
+      "profile_status": "ACTIVE",
+      "runtime_required_for_consumption": false
+    },
+    {
       "service_id": "triad-test.documentation",
       "repository": "Triad-Test/Documentation",
       "boundary_role": "INTERNAL_ENDPOINT",
