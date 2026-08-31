@@ -3,6 +3,18 @@
   "organization": "Triad-Test",
   "services": [
     {
+      "service_id": "triad-test.org-control",
+      "repository": "Triad-Test/.github",
+      "boundary_role": "BOUNDARY_LOCAL_CONTROL",
+      "profile_status": "ACTIVE",
+      "accepts": [
+        "ecosystem.communication",
+        "ecosystem.monitor.request",
+        "ecosystem.work.request"
+      ],
+      "runtime_required_for_consumption": false
+    },
+    {
       "service_id": "triad-test.boundary-diagnostic",
       "repository": "Triad-Test/.github",
       "boundary_role": "BOUNDARY_LOCAL_DIAGNOSTIC",
