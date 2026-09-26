@@ -1,0 +1,3 @@
+# Triad-Test organization coordination
+
+Existing authority remains in `TRIAD_TEST_ORG_BOUNDARY_MIRROR_HANDOFF.md`. The source-only [Triad-Test open-source inventory](docs/OPEN_SOURCE_ORGANIZATION_INVENTORY_20260926.json) records aggregate root-license checks of three registered repositories under central `ECOSYSTEM-OPEN-SOURCE-STRATEGY-001` / COSV `20010010100000`. Root LICENSE and LICENSE.md not found for the three checked repositories. This is not a finding that no historical or file-level grant exists; rights and release authorization remain unverified. Do not disclose the two private or one internal repository identities in the central public census.

@@ -1,0 +1,43 @@
+{
+  "schema": "stegverse.organization-open-source-inventory/v1",
+  "organization": "Triad-Test",
+  "snapshot_date": "2026-09-26",
+  "canonical_goal": "ECOSYSTEM-OPEN-SOURCE-STRATEGY-001",
+  "cosv": "20010010100000",
+  "scope": "Authenticated organization-scoped repository listing; root LICENSE and LICENSE.md exact default-branch paths inspected. Root-only, not file-level or historical rights.",
+  "visibility": "INTERNAL_SOURCE_OWNER_EVIDENCE",
+  "counts": {
+    "repositories": 3,
+    "public": 0,
+    "private": 2,
+    "internal": 1,
+    "root_license_found": 0,
+    "checked_root_paths_missing": 3,
+    "copyright_title_verified": 0,
+    "release_authorizations": 0
+  },
+  "repositories": [
+    {
+      "repository": "Triad-Test/.github",
+      "visibility": "internal",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    },
+    {
+      "repository": "Triad-Test/Documentation",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    },
+    {
+      "repository": "Triad-Test/tests",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    }
+  ],
+  "dispositions": [
+    "ROOT_ONLY_LICENSE_SCOPE_UNVERIFIED",
+    "CONTRIBUTOR_RIGHTS_UNVERIFIED",
+    "THIRD_PARTY_RIGHTS_UNVERIFIED",
+    "RELEASE_NOT_AUTHORIZED"
+  ],
+  "central_disclosure": "AGGREGATE_COUNTS_ONLY_NO_NONPUBLIC_REPOSITORY_NAMES"
+}
