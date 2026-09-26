@@ -67,3 +67,8 @@ The local execution proves the installed processor can actually consume the gove
   - `org-boundary/evidence/`
   - `resident-runtime/`
 - Any legacy resident activation implementation outside `Triad-Test/.github` becomes an endpoint/provider to this boundary or must be migrated here; it must not remain a competing organizational activation point.
+
+
+## 2026-09-26 — source-only open-source license census
+
+Under existing central `ECOSYSTEM-OPEN-SOURCE-STRATEGY-001` / COSV `20010010100000`, authenticated discovery returned three Triad-Test repositories, zero public, two private, one internal. Checked root `LICENSE` and `LICENSE.md` returned not found for all three. Native evidence is `docs/OPEN_SOURCE_ORGANIZATION_INVENTORY_20260926.json`. Central public disclosure is aggregate-only; source/contributor/third-party rights remain UNVERIFIED and release authorization false. This does not modify the organizational runtime/Interlock/InTr owner or create another task, device, ledger or license grant.
