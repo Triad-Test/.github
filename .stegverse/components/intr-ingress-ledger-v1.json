@@ -1,0 +1,62 @@
+{
+  "schema": "stegverse.component-install-record/v1",
+  "component": "intr-ingress-ledger/v1",
+  "organization": "Triad-Test",
+  "address": "triad-test.intr-destination",
+  "owning_existing_goal": "StegVerse-org/.github#162 (task SVORG-INTR-INGRESS-LEDGER-COMPONENT-001)",
+  "authentic_receipt": false,
+  "files": [
+    {
+      "path": "resident-runtime/aggregate_repo_transition.py",
+      "sha256": "sha256:618c79859cfae212d3d54622b56aa897793798814f1afec4153911c1505f6986"
+    },
+    {
+      "path": "resident-runtime/ledger_store.py",
+      "sha256": "sha256:a8caa85390fbc265852eb49eea7f4b03071da4e1f209ab077d8b2edc8174dbe5"
+    },
+    {
+      "path": ".stegverse/transition-ledger/emit.py",
+      "sha256": "sha256:46f905de429a80b1f3f144574b3225436cc30cc8f11bfda53c6a4b54234813b7"
+    },
+    {
+      "path": "org-boundary/runtime/capability_ingress.py",
+      "sha256": "sha256:731dab382f43ff3321f6e039cee1be338099345bf4b0e8fec89e7de1a72bca44"
+    },
+    {
+      "path": "org-runtime/intr_protocol.py",
+      "sha256": "sha256:9cd92d47f9a697f557029d9271455fe4a1b31de25f1d1ee39063a0776c72b843"
+    },
+    {
+      "path": "data/intr-protocol/v1/protocol.json",
+      "sha256": "sha256:f59ce9457cff9df312d5f6c57827654d3f7de4daaef74b79169c534c48cfdeea"
+    },
+    {
+      "path": "resident-runtime/intr_destination_ingress.py",
+      "sha256": "sha256:2bc9ef487041eced73c2742fef4070d170367ae8749981a6e1b5d34617143583"
+    },
+    {
+      "path": "resident-runtime/organization_ledger_readback.py",
+      "sha256": "sha256:e24650287c04a964686a331c8e19af572617aff91d0a2885ec376f3e8db790b8"
+    },
+    {
+      "path": ".stegverse/transition-ledger/contract.json",
+      "sha256": "sha256:33d61087d48eede4f2fc7ee69cd2859d9ca5f67afd7d39773c344b441ba1a556"
+    },
+    {
+      "path": ".stegverse/transition-ledger/org-contract.json",
+      "sha256": "sha256:2c339635aa7ca46798cec9a1f4f286a7a9f485a309c00e62c2feeed6f7d39c1e"
+    },
+    {
+      "path": ".github/workflows/organization-ledger-transition.yml",
+      "sha256": "sha256:594f4d6f29b3c145b59d4d44055ceecd5586f5d9d740408ed7ee5cd0beb4dcfe"
+    },
+    {
+      "path": ".github/workflows/intr-ingress-ledger-component-validation.yml",
+      "sha256": "sha256:b858d0b4ef58476916e03932950aab80cbe8b75a46588b24617c42e132e36e23"
+    },
+    {
+      "path": "tests/test_intr_ingress_ledger_component.py",
+      "sha256": "sha256:d58d179a9439911b79b95cd0234bb996477d862b79c2633230feef4dec859c64"
+    }
+  ]
+}
