@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:Triad-Test->SV-011",
+    "destination_address": "sv-011.intr-destination",
+    "destination_organization": "SV-011",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:53a44e5eb4936b0c1cdd7fc67c324fad34e6d4e374ff139b4ad6b099d00441be",
+    "message": {
+      "body": {
+        "path_id": "Triad-Test->SV-011:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "d22d0dca97d5f33e1e7101dca13fcf5d0422145f"
+      },
+      "communication_id": "intr-path-v1:Triad-Test->SV-011",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:6d814b4d6631f3d808bbc229b05fb42ec6bca1038f60ca7f80c615137edffffa",
+    "path_id": "Triad-Test->SV-011:intr-destination",
+    "payload_sha256": "sha256:63cdbc37b90963ab74aa96773e83cd349b8f3d017892860c264fdb1ebbb835b3",
+    "repository": "Triad-Test/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "Triad-Test",
+    "transfer_commit": "d22d0dca97d5f33e1e7101dca13fcf5d0422145f"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:63cdbc37b90963ab74aa96773e83cd349b8f3d017892860c264fdb1ebbb835b3",
+  "previous_receipt_sha256": "sha256:e0dc5079d51ad3a28f8823a839786b1b8d4410e476ad0cddf7ffc334bd2e685d",
+  "receipt_sha256": "sha256:032f6a1f65e99fd52037ed1233f2637c9f5e770e73441c4590e9704409f5f93f",
+  "repository": "Triad-Test/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:d2843e4d85df8c7fe1a7df6f64b63ce1109cb1da2e5f90567571c5909d7fdc0f",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:Triad-Test->SV-011:intr-destination@intr-path-v1:Triad-Test->SV-011"
+}
