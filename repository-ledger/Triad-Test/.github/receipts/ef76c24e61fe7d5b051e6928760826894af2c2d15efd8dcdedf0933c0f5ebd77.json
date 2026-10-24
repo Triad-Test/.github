@@ -1,0 +1,48 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "addressed_service": "triad-test.intr-destination",
+    "communication_id": "intr-path-v1:ECAT-ICAT-Formal->Triad-Test",
+    "disposition": "ALLOW",
+    "message": {
+      "body": {
+        "path_id": "ECAT-ICAT-Formal->Triad-Test:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "2f54037cb1e425d2982884853763adf31358a0e6"
+      },
+      "communication_id": "intr-path-v1:ECAT-ICAT-Formal->Triad-Test",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:066fa6352c2f41f88a1e6bbbb9688d9ce57720eb3160f5122aaba57a1a4f0d59",
+    "path_id": "ECAT-ICAT-Formal->Triad-Test:intr-destination",
+    "payload_sha256": "sha256:2a2a8567971b6d90ad3814f7c1b36be3eaf724ecc0da40660d9b3ba3f5451215",
+    "repository": "Triad-Test/.github",
+    "schema": "stegverse.intr-path-ingress-evidence/v1",
+    "source_inclusion": {
+      "source_ledger_tip": "7af304749814f7f5ce9bf668b419c14b3a587fbb",
+      "state": "VERIFIED_BY_ANONYMOUS_PUBLIC_LEDGER_READ",
+      "tvc_read_receipt": null
+    },
+    "source_organization_receipt_sha256": "sha256:d89d16f4ad1096fe88ca3bb0d514c298e37fdee0f566ab1fa6ccf1c4148085c1",
+    "source_repository": "ECAT-ICAT-Formal/.github",
+    "source_repository_receipt_sha256": "sha256:7803d73e67db661f778005a1c58adc24dd5d9576714df44e5fd185f4044738e2"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:2a2a8567971b6d90ad3814f7c1b36be3eaf724ecc0da40660d9b3ba3f5451215",
+  "previous_receipt_sha256": "sha256:62cf06401559674000c4f3bc4802acda89329e79f34a147c804ee03c8337729d",
+  "receipt_sha256": "sha256:ef76c24e61fe7d5b051e6928760826894af2c2d15efd8dcdedf0933c0f5ebd77",
+  "repository": "Triad-Test/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:f5ccec6253880a65e146b12ac7a7930e3393543244f9821c326aa62bb3c53e9d",
+  "transition_class": "INTR_MESH_PATH_INGRESS",
+  "transition_id": "INTR_MESH_PATH_INGRESS:ECAT-ICAT-Formal->Triad-Test:intr-destination@intr-path-v1:ECAT-ICAT-Formal->Triad-Test"
+}
