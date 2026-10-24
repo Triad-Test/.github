@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:Triad-Test->SV-LLM",
+    "destination_organization": "SV-LLM",
+    "disposition": "ALLOW",
+    "operation": "INTR_MESH_PATH_TRANSFER",
+    "path_id": "Triad-Test->SV-LLM:intr-destination",
+    "profile_id": "intr-mesh-path-transfer",
+    "repository": "Triad-Test/.github",
+    "transfer_commit": "d22d0dca97d5f33e1e7101dca13fcf5d0422145f"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "Triad-Test",
+  "predecessor_org_state_sha256": "sha256:fb4c78bb40ac483ade3b8c1c5719b03d1db740f50d0c96d269b31f22ea977eed",
+  "previous_receipt_sha256": "sha256:074aaf882d1b55ce45ddad6adb616422d242995a47df64fadf07773225989281",
+  "receipt_sha256": "sha256:16733d9ac870b24dcc40908f854c42f37cc9664385dad6607739cc50a8c044ab",
+  "repo_receipt_sha256": "sha256:e7b5ebee4cfdfc6888dde2a316b0cb27af28365503ed70224d27ea5868e79a1b",
+  "repo_transition_id": "INTR_MESH_PATH_TRANSFER:Triad-Test->SV-LLM:intr-destination@intr-path-v1:Triad-Test->SV-LLM",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "Triad-Test/.github",
+  "source_transition_id": "INTR_MESH_PATH_TRANSFER:Triad-Test->SV-LLM:intr-destination@intr-path-v1:Triad-Test->SV-LLM",
+  "source_transition_sha256": "sha256:e7b5ebee4cfdfc6888dde2a316b0cb27af28365503ed70224d27ea5868e79a1b",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:6918795c3c957a1eb83e9a13976982233f106542ec21647f0813c3e92eb78c1b"
+}
