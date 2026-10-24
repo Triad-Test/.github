@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:AaCT-E->Triad-Test",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "AaCT-E->Triad-Test:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:b4e5c1afb1ed96d06a97de9f31be45242a8fd240ef99e0a19d771f745b84a580",
+    "source_repository": "AaCT-E/.github",
+    "source_repository_receipt_sha256": "sha256:25e8127a4d7d0525bbdbb5b228c1fe3c1b231af04ac317db1f083440fcf1ccc5"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "Triad-Test",
+  "predecessor_org_state_sha256": "sha256:db2484d3ec9c11009248544a7796cb01fe2d05d035c02a63a827ab7102a6600c",
+  "previous_receipt_sha256": "sha256:a411b016e4c406a4b5c1830247747bab2de138a116f5fc135d233210cc084778",
+  "receipt_sha256": "sha256:085dfa02d2216504b384b897517cb7abc7c9bd9a639d31a6ffd53fa45f5bf5e6",
+  "repo_receipt_sha256": "sha256:a65c5b6f4ca584ad1164f81387c244d2e5e9d4023354ffd7afc932df670bf8ce",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:AaCT-E->Triad-Test:intr-destination@intr-path-v1:AaCT-E->Triad-Test",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "Triad-Test/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:AaCT-E->Triad-Test:intr-destination@intr-path-v1:AaCT-E->Triad-Test",
+  "source_transition_sha256": "sha256:a65c5b6f4ca584ad1164f81387c244d2e5e9d4023354ffd7afc932df670bf8ce",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:012fbad7b2ea9747501dc1de19d4f5d1d035580ba70bb068aba3c8d2123817cf"
+}
