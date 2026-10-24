@@ -1,0 +1,55 @@
+{
+  "schema": "stegverse.intr-path-transfer-declaration/v1",
+  "source_repository": "Triad-Test/.github",
+  "rule": "Each row declares one InTr transfer over a declared mesh path whose source is this organization. Landing a row on main is the transition: after that push's main-merge transfer is ledgered, .github/workflows/intr-path-transfer.yml appends the path's source receipt, linked to that main-merge transfer receipt. A row already ledgered is answered from the ledger. No dispatch.",
+  "transfers": [
+    {
+      "path_id": "Triad-Test->AaCT-E:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->AaCT-E"
+    },
+    {
+      "path_id": "Triad-Test->Admissible-Existence:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->Admissible-Existence"
+    },
+    {
+      "path_id": "Triad-Test->AdmittedCode:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->AdmittedCode"
+    },
+    {
+      "path_id": "Triad-Test->Data-Continuation:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->Data-Continuation"
+    },
+    {
+      "path_id": "Triad-Test->ECAT-ICAT-Formal:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->ECAT-ICAT-Formal"
+    },
+    {
+      "path_id": "Triad-Test->GCAT-BCAT-Engine:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->GCAT-BCAT-Engine"
+    },
+    {
+      "path_id": "Triad-Test->SV-011:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->SV-011"
+    },
+    {
+      "path_id": "Triad-Test->SV-LLM:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->SV-LLM"
+    },
+    {
+      "path_id": "Triad-Test->StegGhost:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->StegGhost"
+    },
+    {
+      "path_id": "Triad-Test->StegVerse-002:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->StegVerse-002"
+    },
+    {
+      "path_id": "Triad-Test->StegVerse-Labs:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->StegVerse-Labs"
+    },
+    {
+      "path_id": "Triad-Test->StegVerse-org:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->StegVerse-org"
+    }
+  ]
+}
