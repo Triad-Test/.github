@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:Triad-Test->GCAT-BCAT-Engine",
+    "destination_address": "gcat-bcat-engine.intr-destination",
+    "destination_organization": "GCAT-BCAT-Engine",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:53a44e5eb4936b0c1cdd7fc67c324fad34e6d4e374ff139b4ad6b099d00441be",
+    "message": {
+      "body": {
+        "path_id": "Triad-Test->GCAT-BCAT-Engine:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "d22d0dca97d5f33e1e7101dca13fcf5d0422145f"
+      },
+      "communication_id": "intr-path-v1:Triad-Test->GCAT-BCAT-Engine",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:9cb6dd698866274a0c4b9e193c750a2226f1bbb409f0067292f66ad99fb156d9",
+    "path_id": "Triad-Test->GCAT-BCAT-Engine:intr-destination",
+    "payload_sha256": "sha256:9b6adc1ea7d04411f54e5966cf0ce97f293d3e7c0c44c88e1d9b2680bb2458c9",
+    "repository": "Triad-Test/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "Triad-Test",
+    "transfer_commit": "d22d0dca97d5f33e1e7101dca13fcf5d0422145f"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:9b6adc1ea7d04411f54e5966cf0ce97f293d3e7c0c44c88e1d9b2680bb2458c9",
+  "previous_receipt_sha256": "sha256:a25bf1a8fe17191ef9df218f2e9c191ce84d3bf7cef09661616d5c3ac3ad158b",
+  "receipt_sha256": "sha256:e0dc5079d51ad3a28f8823a839786b1b8d4410e476ad0cddf7ffc334bd2e685d",
+  "repository": "Triad-Test/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:865d0a9b387813d180db1f43d4f1765ff3162514ed9fee63d386db56e27de8b8",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:Triad-Test->GCAT-BCAT-Engine:intr-destination@intr-path-v1:Triad-Test->GCAT-BCAT-Engine"
+}
