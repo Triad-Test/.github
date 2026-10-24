@@ -32,7 +32,7 @@
     },
     {
       "path": "resident-runtime/intr_destination_ingress.py",
-      "sha256": "sha256:2bc9ef487041eced73c2742fef4070d170367ae8749981a6e1b5d34617143583"
+      "sha256": "sha256:61302aa6fe8b21e5c19b5b163bb881b7df590eb71e8af2ebf17c37a3af0499b1"
     },
     {
       "path": "resident-runtime/organization_ledger_readback.py",
