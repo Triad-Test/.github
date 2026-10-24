@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:StegGhost->Triad-Test",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "StegGhost->Triad-Test:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:b46901f2ce865af58d0c2b15d8da2f464e6e832490b63524951576b1fceb7ebe",
+    "source_repository": "StegGhost/.github",
+    "source_repository_receipt_sha256": "sha256:0899dec3a7ba809d0ff73d42f19208908c6991956d456cb02947bc0e0358c56b"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "Triad-Test",
+  "predecessor_org_state_sha256": "sha256:1a2798c0587e0f9c8050a84c1774a05e1c8a51e7ac83cdb4767c1458f339d171",
+  "previous_receipt_sha256": "sha256:69173f9b13a4d32bad5e795360bc994eebfa1c17f6f048e2b9b6e916f2663f6f",
+  "receipt_sha256": "sha256:666fe66fbd0f61ca51bc3bdc01bd993c86a444a1f7bc379b3ac80c2afe7b560c",
+  "repo_receipt_sha256": "sha256:1b8725f7cba56d47aee91852c49dc20de2f545bf26ca0a5951232c5c9f28b980",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:StegGhost->Triad-Test:intr-destination@intr-path-v1:StegGhost->Triad-Test",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "Triad-Test/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:StegGhost->Triad-Test:intr-destination@intr-path-v1:StegGhost->Triad-Test",
+  "source_transition_sha256": "sha256:1b8725f7cba56d47aee91852c49dc20de2f545bf26ca0a5951232c5c9f28b980",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:334e3fc7d9c0d8aec743022dcd2359033d5f5c68b730db2ab58e67ca0073f436"
+}
