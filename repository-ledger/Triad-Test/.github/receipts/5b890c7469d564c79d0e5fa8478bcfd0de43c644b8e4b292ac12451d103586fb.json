@@ -1,0 +1,42 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "admission_authority_constraint": "CONSTRAINT_VARIABLE",
+    "authority_effect": "NONE_DIAGNOSTIC_ACK_ONLY",
+    "communication_id": "triad-test-hb-supplied-001",
+    "disposition": "ALLOW",
+    "disposition_role": "TRANSITION_EVIDENCE_ONLY",
+    "execution_authority_constraint": "CONSTRAINT_VARIABLE",
+    "operation": "DIAGNOSTIC_CROSSING",
+    "owner_repository": "Triad-Test/.github",
+    "packet_id": "triad-test-intr-destination-self-closure-hb-001",
+    "payload_schema": "stegverse.org-intr-destination-diagnostic/v1",
+    "payload_sha256": "sha256:3de5c30d6f58f0bd4e3399ea5e89cbc6ebe357dc326e0db6a5244160c84fc7fe",
+    "profile_id": "intr-destination",
+    "profile_name": "InTr:Destination",
+    "purpose_specific_route": false,
+    "receiving_operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "routing_authority_constraint": "CONSTRAINT_VARIABLE",
+    "selects_processing": false,
+    "standing_rechecked_here": false,
+    "time_constraint": "CONSTRAINT_VARIABLE"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:3de5c30d6f58f0bd4e3399ea5e89cbc6ebe357dc326e0db6a5244160c84fc7fe",
+  "previous_receipt_sha256": null,
+  "receipt_sha256": "sha256:5b890c7469d564c79d0e5fa8478bcfd0de43c644b8e4b292ac12451d103586fb",
+  "repository": "Triad-Test/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:7be6c558a5dbcd9b4a3388cc02e6a98eba9c4775d6eb4a2f08eda8bb5ddf86ce",
+  "transition_class": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+  "transition_id": "ORGANIZATION_INTR_DESTINATION_INGRESS:triad-test-intr-destination-self-closure-hb-001"
+}
