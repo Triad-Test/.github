@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:SV-LLM->Triad-Test",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "SV-LLM->Triad-Test:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:7f2c9008776f6d9104ad318b45d0307f691c6c47b4c305d6e1c8cedd000d5bb2",
+    "source_repository": "SV-LLM/.github",
+    "source_repository_receipt_sha256": "sha256:03b8d66c3277b6a4ea77e709797e4bccbd5ed2d9d5917e04dedad920ab54e5fa"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "Triad-Test",
+  "predecessor_org_state_sha256": "sha256:8c5637bc2a87a49f46c00fd72de7b1ffda9999706dd43424cbfb7cc9b8a8c03f",
+  "previous_receipt_sha256": "sha256:ca93e5d1b75211664088951c68bd994dad655966b3c5452842ce28f208cec6bb",
+  "receipt_sha256": "sha256:69173f9b13a4d32bad5e795360bc994eebfa1c17f6f048e2b9b6e916f2663f6f",
+  "repo_receipt_sha256": "sha256:151166a37bf28b1fec2e7f66c47647a1d511c9aa052a1bdae01f677b1ec6534d",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:SV-LLM->Triad-Test:intr-destination@intr-path-v1:SV-LLM->Triad-Test",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "Triad-Test/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:SV-LLM->Triad-Test:intr-destination@intr-path-v1:SV-LLM->Triad-Test",
+  "source_transition_sha256": "sha256:151166a37bf28b1fec2e7f66c47647a1d511c9aa052a1bdae01f677b1ec6534d",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:e8af1344e8b3a11eaa4deb583b5015e33462019dee0e511cc705c76385f893f6"
+}

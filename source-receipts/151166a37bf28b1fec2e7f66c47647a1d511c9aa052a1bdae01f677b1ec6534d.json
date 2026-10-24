@@ -1,0 +1,48 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "addressed_service": "triad-test.intr-destination",
+    "communication_id": "intr-path-v1:SV-LLM->Triad-Test",
+    "disposition": "ALLOW",
+    "message": {
+      "body": {
+        "path_id": "SV-LLM->Triad-Test:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "792b5a3b3d4d5c0724f9ec847b995c1efe2213c8"
+      },
+      "communication_id": "intr-path-v1:SV-LLM->Triad-Test",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:10d5fe50f0f0fcf7d4ea17c265b1029999296badc3b458fa5a56d534a9b9089c",
+    "path_id": "SV-LLM->Triad-Test:intr-destination",
+    "payload_sha256": "sha256:8c5637bc2a87a49f46c00fd72de7b1ffda9999706dd43424cbfb7cc9b8a8c03f",
+    "repository": "Triad-Test/.github",
+    "schema": "stegverse.intr-path-ingress-evidence/v1",
+    "source_inclusion": {
+      "source_ledger_tip": "b345fec2278bd657da99d558c73b0bee9c3f8541",
+      "state": "VERIFIED_BY_ANONYMOUS_PUBLIC_LEDGER_READ",
+      "tvc_read_receipt": null
+    },
+    "source_organization_receipt_sha256": "sha256:7f2c9008776f6d9104ad318b45d0307f691c6c47b4c305d6e1c8cedd000d5bb2",
+    "source_repository": "SV-LLM/.github",
+    "source_repository_receipt_sha256": "sha256:03b8d66c3277b6a4ea77e709797e4bccbd5ed2d9d5917e04dedad920ab54e5fa"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:8c5637bc2a87a49f46c00fd72de7b1ffda9999706dd43424cbfb7cc9b8a8c03f",
+  "previous_receipt_sha256": "sha256:dba660d0f96bf07e4b67ce9c87216c432ba8facdd4be0e20cd17b81ffdc29143",
+  "receipt_sha256": "sha256:151166a37bf28b1fec2e7f66c47647a1d511c9aa052a1bdae01f677b1ec6534d",
+  "repository": "Triad-Test/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:e8af1344e8b3a11eaa4deb583b5015e33462019dee0e511cc705c76385f893f6",
+  "transition_class": "INTR_MESH_PATH_INGRESS",
+  "transition_id": "INTR_MESH_PATH_INGRESS:SV-LLM->Triad-Test:intr-destination@intr-path-v1:SV-LLM->Triad-Test"
+}
