@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:AdmittedCode->Triad-Test",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "AdmittedCode->Triad-Test:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:6742216f229627974aade49b6523d25e4440ebe58aff4af9ceea13e5b890a8b6",
+    "source_repository": "AdmittedCode/.github",
+    "source_repository_receipt_sha256": "sha256:96872011aa354e9597b2912b16d114fb40b8527e53231e9182d22bc367a68860"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "Triad-Test",
+  "predecessor_org_state_sha256": "sha256:b439d90f359b90a23ae3792302dad87bde12ee8995b33bbf6dd5cfc4b6d18714",
+  "previous_receipt_sha256": "sha256:085dfa02d2216504b384b897517cb7abc7c9bd9a639d31a6ffd53fa45f5bf5e6",
+  "receipt_sha256": "sha256:ba6adae0759fc1ff1863c9ec8a97b9cdbbbef026685af3262782b9cb74584cf3",
+  "repo_receipt_sha256": "sha256:5a8bf143d96c388e95ae7fa140db9f5753a19b3de08678348316a24e70aebc2f",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:AdmittedCode->Triad-Test:intr-destination@intr-path-v1:AdmittedCode->Triad-Test",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "Triad-Test/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:AdmittedCode->Triad-Test:intr-destination@intr-path-v1:AdmittedCode->Triad-Test",
+  "source_transition_sha256": "sha256:5a8bf143d96c388e95ae7fa140db9f5753a19b3de08678348316a24e70aebc2f",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:1d6669763c37b2b6a99318d35655680d00765fb0e2f3d0d45d78d892e0759208"
+}
