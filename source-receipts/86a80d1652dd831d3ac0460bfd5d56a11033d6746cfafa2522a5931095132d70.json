@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "communication_id": "main-merge-transfer:Triad-Test/.github@15daba05f06ebd48cc9f7bf0cbd0ce1359ce51ea",
+    "disposition": "ALLOW",
+    "merge_commit": "15daba05f06ebd48cc9f7bf0cbd0ce1359ce51ea",
+    "merge_kind": "MERGE_COMMIT",
+    "parents": [
+      "e583bdff13488bd6c7bba3f085c8825c5fe2573b",
+      "c0537b94fa50f10ca184595b5a61de0ef70b7ce1"
+    ],
+    "payload_sha256": "sha256:2b54d1e65ffed44809d4369561a8412ed40c03f2bdd0027e2f19154ec2e49f2e",
+    "pull_request": 14,
+    "pull_request_source": "MERGE_COMMIT_SUBJECT",
+    "ref": "refs/heads/main",
+    "repository": "Triad-Test/.github",
+    "schema": "stegverse.main-merge-transfer-evidence/v1",
+    "tree": "f1025a7f65f6fafa045e071fedc11528defe366d"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:2b54d1e65ffed44809d4369561a8412ed40c03f2bdd0027e2f19154ec2e49f2e",
+  "previous_receipt_sha256": "sha256:770ccafd365ea5c7441cebedb320c3492f52a0517948772ebaed82dfa14891d8",
+  "receipt_sha256": "sha256:86a80d1652dd831d3ac0460bfd5d56a11033d6746cfafa2522a5931095132d70",
+  "repository": "Triad-Test/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:5c59f9e2c648c36e10e07f07c2a8fb3f97c63af82b2ac15ca1fb06bcf791cd0f",
+  "transition_class": "ORGANIZATION_MAIN_MERGE_TRANSFER",
+  "transition_id": "ORGANIZATION_MAIN_MERGE_TRANSFER:15daba05f06ebd48cc9f7bf0cbd0ce1359ce51ea"
+}
