@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:formalism-tests->Triad-Test",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "formalism-tests->Triad-Test:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:0a4b2bc4f4d6013d4413d0488d759ec23fde88ab0a5b5bae7dbea773c8615c1c",
+    "source_repository": "formalism-tests/.github",
+    "source_repository_receipt_sha256": "sha256:9790023336bd6dc86ff600661193546ac0e57e6beff83df850b4eb69bc7114a9"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "Triad-Test",
+  "predecessor_org_state_sha256": "sha256:77a61bc3f4b91805c2e51cf5ba4d641198669b3dcc7254a5aac1f67640983d20",
+  "previous_receipt_sha256": "sha256:8ea300f6a94ceb2dccb2902bb37733c72edaf2f65b473f5e78585a1d94602a39",
+  "receipt_sha256": "sha256:54223c6f45f52335d67962ff3a3fd1d5b29ca9e6305c1afb4f885038b9de25d4",
+  "repo_receipt_sha256": "sha256:c6f119457c54abae3468e064a26cad8e46a699710c47fdf2e6681f84e823b55b",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:formalism-tests->Triad-Test:intr-destination@intr-path-v1:formalism-tests->Triad-Test",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "Triad-Test/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:formalism-tests->Triad-Test:intr-destination@intr-path-v1:formalism-tests->Triad-Test",
+  "source_transition_sha256": "sha256:c6f119457c54abae3468e064a26cad8e46a699710c47fdf2e6681f84e823b55b",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:65c2ca9f3b23c53ea3844d92a436991fc963fe015d616b43805c7e36b3afd76b"
+}
