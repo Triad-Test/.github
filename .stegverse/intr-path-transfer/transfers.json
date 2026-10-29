@@ -28,6 +28,10 @@
       "communication_id": "intr-path-v1:Triad-Test->GCAT-BCAT-Engine"
     },
     {
+      "path_id": "Triad-Test->Infrastructure-Continuity-Ventures:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->Infrastructure-Continuity-Ventures"
+    },
+    {
       "path_id": "Triad-Test->SV-011:intr-destination",
       "communication_id": "intr-path-v1:Triad-Test->SV-011"
     },
@@ -50,6 +54,14 @@
     {
       "path_id": "Triad-Test->StegVerse-org:intr-destination",
       "communication_id": "intr-path-v1:Triad-Test->StegVerse-org"
+    },
+    {
+      "path_id": "Triad-Test->formalism-tests:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->formalism-tests"
+    },
+    {
+      "path_id": "Triad-Test->master-records:intr-destination",
+      "communication_id": "intr-path-v1:Triad-Test->master-records"
     }
   ]
 }
