@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:Triad-Test->Infrastructure-Continuity-Ventures",
+    "destination_address": "infrastructure-continuity-ventures.intr-destination",
+    "destination_organization": "Infrastructure-Continuity-Ventures",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:3ecc9861a5e794498db0c4b30ec454d48792830cf9c571b742a28aa21811f68b",
+    "message": {
+      "body": {
+        "path_id": "Triad-Test->Infrastructure-Continuity-Ventures:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "f1dc01e018a8825b5a849afe04ae78af82905ceb"
+      },
+      "communication_id": "intr-path-v1:Triad-Test->Infrastructure-Continuity-Ventures",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:76ba0d95fbe1a6a82d11d38da5c4233dce78d76089fef73f59bf473abf7daf8e",
+    "path_id": "Triad-Test->Infrastructure-Continuity-Ventures:intr-destination",
+    "payload_sha256": "sha256:15fea18b3a38bc5147cf8b2616b85732b3c9d7634f3e3a9092f64f2f868fa826",
+    "repository": "Triad-Test/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "Triad-Test",
+    "transfer_commit": "f1dc01e018a8825b5a849afe04ae78af82905ceb"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:15fea18b3a38bc5147cf8b2616b85732b3c9d7634f3e3a9092f64f2f868fa826",
+  "previous_receipt_sha256": "sha256:05008150968fa3e2d88edcfda55071122e1bfdd807632a56cdf8fcf6eb57f67e",
+  "receipt_sha256": "sha256:29221d0a1593123e922bfc3f873146c4ae394f26db7efeb46edc56a2e508d5eb",
+  "repository": "Triad-Test/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:d0c72e43567a93c196c222618eeba200707ddb94af3cb545da11d90203a614f9",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:Triad-Test->Infrastructure-Continuity-Ventures:intr-destination@intr-path-v1:Triad-Test->Infrastructure-Continuity-Ventures"
+}
